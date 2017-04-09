@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Exploring\protoactor-dotnet\src\ClusterProviders\Proto.Cluster.Consul\Proto.Cluster.Consul.csproj" />
+    <ProjectReference Include="..\..\..\..\Exploring\protoactor-dotnet\src\Proto.Actor\Proto.Actor.csproj" />
+    <ProjectReference Include="..\..\..\..\Exploring\protoactor-dotnet\src\Proto.Cluster\Proto.Cluster.csproj" />
+    <ProjectReference Include="..\..\..\..\Exploring\protoactor-dotnet\src\Proto.Mailbox\Proto.Mailbox.csproj" />
+    <ProjectReference Include="..\..\..\..\Exploring\protoactor-dotnet\src\Proto.Remote\Proto.Remote.csproj" />
+    <ProjectReference Include="..\CodingMilitia.ProtoActorSample.Messages\CodingMilitia.ProtoActorSample.Messages.csproj" />
+  </ItemGroup>
+
+</Project>
+

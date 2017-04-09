@@ -1,0 +1,9 @@
+syntax = "proto3";
+package messages;
+option csharp_namespace = "CodingMilitia.ProtoActorSample.Messages";
+import "Proto.Actor/Protos.proto";
+
+message PlusOneRequest {}
+message PlusOneResponse {
+    int32 CurrentCount=1;
+}
